@@ -1,4 +1,4 @@
-# skills
+# ops-skills
 
 Agent skills for DevOps and security work, in the open [Agent Skills](https://agentskills.io) format. Each skill is a folder with a `SKILL.md`; any agent that supports the format (Cursor, Claude Code and others) loads it when the task matches its description.
 
@@ -13,9 +13,9 @@ Agent skills for DevOps and security work, in the open [Agent Skills](https://ag
 Clone the repository and link the skills you want into your agent's skills directory:
 
 ```sh
-git clone https://github.com/kreicer/skills.git
-ln -s "$PWD/skills/web-log-triage" ~/.cursor/skills/web-log-triage   # Cursor
-ln -s "$PWD/skills/web-log-triage" ~/.claude/skills/web-log-triage   # Claude Code
+git clone https://github.com/kreicer/ops-skills.git
+ln -s "$PWD/ops-skills/web-log-triage" ~/.cursor/skills/web-log-triage   # Cursor
+ln -s "$PWD/ops-skills/web-log-triage" ~/.claude/skills/web-log-triage   # Claude Code
 ```
 
 For a single project, link into `.cursor/skills/` or `.claude/skills/` inside that project instead. `git pull` updates linked skills.
